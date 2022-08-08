@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> Test Cases Snapshot test should pass 1`] = `
+<ul
+  className="List__StyledList-sc-1b1or9q-0 iyrMoT"
+>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1"
+  >
+    <p>
+      text 1
+    </p>
+  </li>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1"
+  >
+    <p>
+      text 2
+    </p>
+  </li>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1"
+  >
+    <p>
+      text 3
+    </p>
+  </li>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1"
+  >
+    <p>
+      text 4
+    </p>
+  </li>
+</ul>
+`;

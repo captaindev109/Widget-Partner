@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases of the Text component Snapshot test should pass 1`] = `
+<p
+  className="Text__StyledText-sc-1jfsuh1-0 gBzvyB"
+  color="gray900"
+>
+  We offer insurance
+</p>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HelloWorld /> Test Cases Snapshot test should pass 1`] = `
+Array [
+  <p
+    className="text"
+  >
+    Hello World
+  </p>,
+  <div>
+    life Is
+  </div>,
+]
+`;

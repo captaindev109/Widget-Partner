@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Peril snapshot test Snapshot test should pass 1`] = `
+<ul
+  className="List__StyledList-sc-1b1or9q-0 cjSnKm"
+  direction="row"
+  display="flex"
+  wrap="wrap"
+>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1 PerilsList__PerilsListItem-sc-9z80pk-0 itixlA"
+  >
+    <div
+      className="Card-sc-fb64gk-0 PerilsList__StyledPeril-sc-9z80pk-1 iJgSZC lgGhXf"
+      data-testid="Peril"
+      onClick={[Function]}
+    >
+      <img
+        alt="Eldsvåda"
+        className="Image__StyledImage-sc-34jhra-0 kHOSNn"
+        height="20px"
+        src="https://promise.hedvig.com/media/fire_97796e0790.svg"
+        width="20px"
+      />
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iWpXoI PerilsList__PerilText-sc-9z80pk-2 cnFFLb"
+        color="gray900"
+      >
+        Eldsvåda
+      </p>
+    </div>
+  </li>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1 PerilsList__PerilsListItem-sc-9z80pk-0 itixlA"
+  >
+    <div
+      className="Card-sc-fb64gk-0 PerilsList__StyledPeril-sc-9z80pk-1 iJgSZC ksaMNF"
+      data-testid="Peril"
+      onClick={[Function]}
+    >
+      <img
+        alt="Vattenläcka"
+        className="Image__StyledImage-sc-34jhra-0 kHOSNn"
+        height="20px"
+        src="https://promise.hedvig.com/media/water_damage_e25b83cd0b.svg"
+        width="20px"
+      />
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iWpXoI PerilsList__PerilText-sc-9z80pk-2 cnFFLb"
+        color="gray900"
+      >
+        Vattenläcka
+      </p>
+    </div>
+  </li>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1 PerilsList__PerilsListItem-sc-9z80pk-0 itixlA"
+  >
+    <div
+      className="Card-sc-fb64gk-0 PerilsList__StyledPeril-sc-9z80pk-1 iJgSZC ikvspK"
+      data-testid="Peril"
+      onClick={[Function]}
+    >
+      <img
+        alt="Inbrott"
+        className="Image__StyledImage-sc-34jhra-0 kHOSNn"
+        height="20px"
+        src="https://promise.hedvig.com/media/burglary_946096433f.svg"
+        width="20px"
+      />
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iWpXoI PerilsList__PerilText-sc-9z80pk-2 cnFFLb"
+        color="gray900"
+      >
+        Inbrott
+      </p>
+    </div>
+  </li>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1 PerilsList__PerilsListItem-sc-9z80pk-0 itixlA"
+  >
+    <div
+      className="Card-sc-fb64gk-0 PerilsList__StyledPeril-sc-9z80pk-1 iJgSZC TYTmY"
+      data-testid="Peril"
+      onClick={[Function]}
+    >
+      <img
+        alt="Stöld"
+        className="Image__StyledImage-sc-34jhra-0 kHOSNn"
+        height="20px"
+        src="https://promise.hedvig.com/media/theft_701fa78317.svg"
+        width="20px"
+      />
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iWpXoI PerilsList__PerilText-sc-9z80pk-2 cnFFLb"
+        color="gray900"
+      >
+        Stöld
+      </p>
+    </div>
+  </li>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1 PerilsList__PerilsListItem-sc-9z80pk-0 itixlA"
+  >
+    <div
+      className="Card-sc-fb64gk-0 PerilsList__StyledPeril-sc-9z80pk-1 iJgSZC lgGhXf"
+      data-testid="Peril"
+      onClick={[Function]}
+    >
+      <img
+        alt="Skadegörelse"
+        className="Image__StyledImage-sc-34jhra-0 kHOSNn"
+        height="20px"
+        src="https://promise.hedvig.com/media/criminal_damage_9f725dc7cf.svg"
+        width="20px"
+      />
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iWpXoI PerilsList__PerilText-sc-9z80pk-2 cnFFLb"
+        color="gray900"
+      >
+        Skadegörelse
+      </p>
+    </div>
+  </li>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1 PerilsList__PerilsListItem-sc-9z80pk-0 itixlA"
+  >
+    <div
+      className="Card-sc-fb64gk-0 PerilsList__StyledPeril-sc-9z80pk-1 iJgSZC ksaMNF"
+      data-testid="Peril"
+      onClick={[Function]}
+    >
+      <img
+        alt="Ansvarsskydd"
+        className="Image__StyledImage-sc-34jhra-0 kHOSNn"
+        height="20px"
+        src="https://promise.hedvig.com/media/liability_c331907aff.svg"
+        width="20px"
+      />
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iWpXoI PerilsList__PerilText-sc-9z80pk-2 cnFFLb"
+        color="gray900"
+      >
+        Ansvarsskydd
+      </p>
+    </div>
+  </li>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1 PerilsList__PerilsListItem-sc-9z80pk-0 itixlA"
+  >
+    <div
+      className="Card-sc-fb64gk-0 PerilsList__StyledPeril-sc-9z80pk-1 iJgSZC ikvspK"
+      data-testid="Peril"
+      onClick={[Function]}
+    >
+      <img
+        alt="Rättsskydd"
+        className="Image__StyledImage-sc-34jhra-0 kHOSNn"
+        height="20px"
+        src="https://promise.hedvig.com/media/legal_protection_f6e65e1b13.svg"
+        width="20px"
+      />
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iWpXoI PerilsList__PerilText-sc-9z80pk-2 cnFFLb"
+        color="gray900"
+      >
+        Rättsskydd
+      </p>
+    </div>
+  </li>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1 PerilsList__PerilsListItem-sc-9z80pk-0 itixlA"
+  >
+    <div
+      className="Card-sc-fb64gk-0 PerilsList__StyledPeril-sc-9z80pk-1 iJgSZC TYTmY"
+      data-testid="Peril"
+      onClick={[Function]}
+    >
+      <img
+        alt="Resetrubbel"
+        className="Image__StyledImage-sc-34jhra-0 kHOSNn"
+        height="20px"
+        src="https://promise.hedvig.com/media/travel_insurance_ed0fa95fdf.svg"
+        width="20px"
+      />
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iWpXoI PerilsList__PerilText-sc-9z80pk-2 cnFFLb"
+        color="gray900"
+      >
+        Resetrubbel
+      </p>
+    </div>
+  </li>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1 PerilsList__PerilsListItem-sc-9z80pk-0 itixlA"
+  >
+    <div
+      className="Card-sc-fb64gk-0 PerilsList__StyledPeril-sc-9z80pk-1 iJgSZC lgGhXf"
+      data-testid="Peril"
+      onClick={[Function]}
+    >
+      <img
+        alt="Överfall"
+        className="Image__StyledImage-sc-34jhra-0 kHOSNn"
+        height="20px"
+        src="https://promise.hedvig.com/media/assault_d371c026ac.svg"
+        width="20px"
+      />
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iWpXoI PerilsList__PerilText-sc-9z80pk-2 cnFFLb"
+        color="gray900"
+      >
+        Överfall
+      </p>
+    </div>
+  </li>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1 PerilsList__PerilsListItem-sc-9z80pk-0 itixlA"
+  >
+    <div
+      className="Card-sc-fb64gk-0 PerilsList__StyledPeril-sc-9z80pk-1 iJgSZC ksaMNF"
+      data-testid="Peril"
+      onClick={[Function]}
+    >
+      <img
+        alt="Sjuk på resa"
+        className="Image__StyledImage-sc-34jhra-0 kHOSNn"
+        height="20px"
+        src="https://promise.hedvig.com/media/sick_on_holiday_17b3f1899c.svg"
+        width="20px"
+      />
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iWpXoI PerilsList__PerilText-sc-9z80pk-2 cnFFLb"
+        color="gray900"
+      >
+        Sjuk på resa
+      </p>
+    </div>
+  </li>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1 PerilsList__PerilsListItem-sc-9z80pk-0 itixlA"
+  >
+    <div
+      className="Card-sc-fb64gk-0 PerilsList__StyledPeril-sc-9z80pk-1 iJgSZC ikvspK"
+      data-testid="Peril"
+      onClick={[Function]}
+    >
+      <img
+        alt="Vitvaror"
+        className="Image__StyledImage-sc-34jhra-0 kHOSNn"
+        height="20px"
+        src="https://promise.hedvig.com/media/appliance_damage_2a23c61a09.svg"
+        width="20px"
+      />
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iWpXoI PerilsList__PerilText-sc-9z80pk-2 cnFFLb"
+        color="gray900"
+      >
+        Vitvaror
+      </p>
+    </div>
+  </li>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1 PerilsList__PerilsListItem-sc-9z80pk-0 itixlA"
+  >
+    <div
+      className="Card-sc-fb64gk-0 PerilsList__StyledPeril-sc-9z80pk-1 iJgSZC TYTmY"
+      data-testid="Peril"
+      onClick={[Function]}
+    >
+      <img
+        alt="Drulle"
+        className="Image__StyledImage-sc-34jhra-0 kHOSNn"
+        height="20px"
+        src="https://promise.hedvig.com/media/all_risk_eba77dfb03.svg"
+        width="20px"
+      />
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iWpXoI PerilsList__PerilText-sc-9z80pk-2 cnFFLb"
+        color="gray900"
+      >
+        Drulle
+      </p>
+    </div>
+  </li>
+  <li
+    className="List__StyledListItem-sc-1b1or9q-1 PerilsList__PerilsListItem-sc-9z80pk-0 itixlA"
+  >
+    <div
+      className="Card-sc-fb64gk-0 PerilsList__StyledPeril-sc-9z80pk-1 iJgSZC lgGhXf"
+      data-testid="Peril"
+      onClick={[Function]}
+    >
+      <img
+        alt="Bostadsrättstillägg"
+        className="Image__StyledImage-sc-34jhra-0 kHOSNn"
+        height="20px"
+        src="https://promise.hedvig.com/media/brf_additional_51b2fb160a.svg"
+        width="20px"
+      />
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iWpXoI PerilsList__PerilText-sc-9z80pk-2 cnFFLb"
+        color="gray900"
+      >
+        Bostadsrättstillägg
+      </p>
+    </div>
+  </li>
+</ul>
+`;

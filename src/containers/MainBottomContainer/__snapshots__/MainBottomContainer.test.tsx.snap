@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainBottomContainer /> Test Cases Snapshot test should pass 1`] = `
+<div
+  className="Card-sc-fb64gk-0 MainBottomContainer__StyledMainBottomContainer-sc-m5h2jy-0 jpqWTd cfxCCa"
+  data-testid="MainBottomContainer"
+/>
+`;

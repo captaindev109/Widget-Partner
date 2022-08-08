@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render tests should match the sapshot 1`] = `
+<div
+  className="Card-sc-fb64gk-0 Wrapper__StyledWrapper-sc-drqeso-0 leCJCh bWoYwk"
+  data-testid="wrapper"
+  direction="row"
+>
+  child
+</div>
+`;

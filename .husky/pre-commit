@@ -1,0 +1,37 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo 'Styling, testing and building your project before commiting'
+
+
+# Check Prettier standards
+yarn check-types || 
+{
+    echo 'failed Type check
+            Make the changes required above
+    '
+    false; 
+}
+
+# Check ESLint standards
+yarn check-lint || 
+{
+    echo 'failed ESLint check
+            Make the changes required above
+    '
+    false; 
+}
+
+# If everything passes ... trying to build
+echo 'Code looks good... Trying to build now'
+
+yarn build || 
+{
+    echo 'next build failed
+            See the error below
+    '
+    false; 
+}
+
+# If it build we can commit
+echo 'Commiting the code now'

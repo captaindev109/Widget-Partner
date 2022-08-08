@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases of the LinkText component Snapshot test should pass 1`] = `
+<a
+  className="LinkText-sc-1dzt7t6-0 jA-DDB"
+  fontSize="12px"
+  target="_blank"
+/>
+`;

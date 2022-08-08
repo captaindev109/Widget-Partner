@@ -1,0 +1,33 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "globals": {
+    "window": true,
+    "process": true
+  },
+  "extends":[ "next/core-web-vitals",
+    "eslint:recommended",
+    "next",
+    "plugin:react/recommended",
+  ],
+  "rules": {
+    "no-unused-vars": "off",
+    "no-undef": "off",
+    "no-redeclare": "off",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "indent": [
+      "warn",
+      2
+    ]
+  }
+}

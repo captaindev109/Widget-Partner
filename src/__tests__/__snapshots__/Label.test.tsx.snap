@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases of the Label component Snapshot test should pass 1`] = `
+<label
+  className="Label__StyledText-sc-76lssq-0 eBRjDt"
+/>
+`;

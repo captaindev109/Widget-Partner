@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioGroup render tests Snapshot test should pass 1`] = `
+<div
+  className="Card-sc-fb64gk-0 VEmTo"
+  display="flex"
+  width="100%"
+>
+  <div
+    className="Card-sc-fb64gk-0 RadioGroup__TopRow-sc-1ihqkki-0 leCJCh hrJGZx"
+  />
+  <div
+    className="Card-sc-fb64gk-0 RadioGroup__RadioGroupWrapper-sc-1ihqkki-3 leCJCh jBpDuX"
+  >
+    <div
+      className="Card-sc-fb64gk-0 Input__RadioButtonContainer-sc-1g1qde7-5 leCJCh dIQPTq"
+    >
+      <input
+        className="Input__BaseInput-sc-1g1qde7-0 Input__StyledRadioButton-sc-1g1qde7-9 loYxXz ijkpwp"
+        data-testid="radio-input"
+        id="a"
+        type="radio"
+        value="a"
+      />
+      <div
+        className="Input__ContentWrapper-sc-1g1qde7-8 dPrdNA"
+      >
+        <div
+          className="Card-sc-fb64gk-0 Input__RadioCircle-sc-1g1qde7-6 leCJCh jIHrWM"
+        >
+          <div
+            className="Card-sc-fb64gk-0 Input__RadioIcon-sc-1g1qde7-7 leCJCh bbmyOl"
+          >
+            <svg
+              fill="none"
+              height="22px"
+              pointerEvents="none"
+              viewBox="0 0 23 22"
+              width="22px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#121212"
+                height="22"
+                rx="11"
+                width="22"
+                x="0.5"
+              />
+              <path
+                d="M5.5 11L9.5 15L17.5 7"
+                stroke="#FAFAFA"
+                strokeWidth="2"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="Card-sc-fb64gk-0 Input__ChildrenWrapper-sc-1g1qde7-11 gSNLuZ laAORz"
+          width="100%"
+        >
+          A
+        </div>
+      </div>
+    </div>
+    <div
+      className="Card-sc-fb64gk-0 Input__RadioButtonContainer-sc-1g1qde7-5 leCJCh dIQPTq"
+    >
+      <input
+        className="Input__BaseInput-sc-1g1qde7-0 Input__StyledRadioButton-sc-1g1qde7-9 loYxXz ijkpwp"
+        data-testid="radio-input"
+        id="b"
+        type="radio"
+        value="b"
+      />
+      <div
+        className="Input__ContentWrapper-sc-1g1qde7-8 dPrdNA"
+      >
+        <div
+          className="Card-sc-fb64gk-0 Input__RadioCircle-sc-1g1qde7-6 leCJCh jIHrWM"
+        >
+          <div
+            className="Card-sc-fb64gk-0 Input__RadioIcon-sc-1g1qde7-7 leCJCh bbmyOl"
+          >
+            <svg
+              fill="none"
+              height="22px"
+              pointerEvents="none"
+              viewBox="0 0 23 22"
+              width="22px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                fill="#121212"
+                height="22"
+                rx="11"
+                width="22"
+                x="0.5"
+              />
+              <path
+                d="M5.5 11L9.5 15L17.5 7"
+                stroke="#FAFAFA"
+                strokeWidth="2"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          className="Card-sc-fb64gk-0 Input__ChildrenWrapper-sc-1g1qde7-11 gSNLuZ laAORz"
+          width="100%"
+        >
+          B
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

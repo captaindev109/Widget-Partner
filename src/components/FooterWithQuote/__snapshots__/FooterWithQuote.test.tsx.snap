@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterWithQuote /> Test Cases Snapshot test should pass 1`] = `
+<div
+  className="Card-sc-fb64gk-0 hskMYt"
+  data-testid="FooterWithQuote"
+  display="flex"
+>
+  <div
+    className="Card-sc-fb64gk-0 fjEoSy"
+  >
+    <p
+      className="Text__StyledText-sc-1jfsuh1-0 iWpXoI"
+      color="gray900"
+    >
+      100
+       
+      kr
+      /mnd
+    </p>
+    <p
+      className="Text__StyledText-sc-1jfsuh1-0 eTNRxW"
+      color="gray700"
+    >
+      Avsluta när du vill
+    </p>
+  </div>
+  <div
+    className="Card-sc-fb64gk-0 leCJCh"
+  >
+    <button
+      className="Button__StyledButton-sc-1drbzk-0 ihwfYJ"
+      disabled={false}
+      type="button"
+    >
+      <div
+        className="Card-sc-fb64gk-0 Button__ContentWrapper-sc-1drbzk-1 leCJCh jowrmu"
+      >
+        Slutfor kop
+      </div>
+    </button>
+  </div>
+</div>
+`;

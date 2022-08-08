@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots Snapshot test should pass 1`] = `
+Array [
+  <div
+    data-testid="state"
+  >
+    PRIMARY
+  </div>,
+  <button
+    data-testid="primary"
+    onClick={[Function]}
+  >
+    PRIMARY
+  </button>,
+  <button
+    data-testid="secondary"
+    onClick={[Function]}
+  >
+    SECONDARY
+  </button>,
+]
+`;

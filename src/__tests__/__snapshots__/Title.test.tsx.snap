@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases of the Title component Snapshot test should pass 1`] = `
+<div
+  className="Title-sc-spq86-0 dDCGeH"
+/>
+`;

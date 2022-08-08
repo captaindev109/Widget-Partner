@@ -1,0 +1,134 @@
+[
+  {
+    "id": "avy_ab_home_insurance_schema",
+    "partner_name": "avy ab",
+    "flow": "default",
+    "Partner_id": "avy_property",
+    "insurance_type": "home_insurance",
+    "lan": "se-en",
+    "app_id": "gjgas86sdgjjasjasd",
+    "session": true,
+    "session_id": "7dh8ghds73hkd89j3d",
+    "ui_data": [
+      {
+        "id": "checkout",
+        "component": "Card",
+        "padding": "16px",
+        "children": [
+          {
+            "id": "checkout_title_card",
+            "component": "Card",
+            "marginBottom": "30px",
+            "children": [
+              {
+                "id": "checkout_title",
+                "component": "Text",
+                "variant": "HeadlineS",
+                "children": "Checka ut"
+              }
+            ]
+          },
+          {
+            "id": "checkout_products",
+            "component": "Card",
+            "marginBottom": "40px",
+            "children": [
+              {
+                "id": "checkout_products_title_card",
+                "component": "Card",
+                "marginBottom": "16px",
+                "children": [
+                  {
+                    "id": "checkout_products_title",
+                    "component": "Text",
+                    "variant": "HeadlineXS",
+                    "children": "Dina produkter"
+                  }
+                ]
+              },
+
+              {
+                "id": "checkout_products_product_list",
+                "component": "ExoticProductList"
+              }
+            ]
+          },
+          {
+            "id": "checkout_startdate",
+            "component": "Card",
+            "marginBottom": "30px",
+            "children": [
+              {
+                "id": "checkout_startdate",
+                "component": "Card",
+                "marginBottom": "16px",
+                "children": [
+                  {
+                    "id": "checkout_summary_title",
+                    "component": "Text",
+                    "variant": "HeadlineXS",
+                    "children": "Startdatum"
+                  }
+                ]
+              },
+
+              {
+                "id": "checkout_summary_startdate",
+                "component": "ExoticStartDate"
+              }
+            ]
+          },
+          {
+            "id": "checkout_summary",
+            "component": "Card",
+            "marginBottom": "30px",
+            "children": [
+              {
+                "id": "checkout_summary_title_card",
+                "component": "Card",
+                "marginBottom": "16px",
+                "children": [
+                  {
+                    "id": "checkout_summary_title",
+                    "component": "Text",
+                    "variant": "HeadlineXS",
+                    "children": "Sammanfattning"
+                  }
+                ]
+              },
+
+              {
+                "id": "checkout_summary_insurance_summary",
+                "component": "ExoticInsuranceSummary"
+              }
+            ]
+          },
+          {
+            "id": "checkout_summary_insurance_documents_card",
+            "component": "Card",
+            "children": [
+              {
+                "id": "checkout_summary_insurance_documents",
+                "component": "ExoticCheckoutDocuments"
+              }
+            ]
+          },
+          {
+            "id": "checkout_disclaimer",
+            "component": "Card",
+            "marginBottom": "48px",
+            "children": [
+              {
+                "id": "checkout_disclaimer_caption",
+                "component": "Text",
+                "color": "gray700",
+                "variant": "Caption",
+                "children": "Genom att klicka \"Slutför köp\" bekräftar jag att jag läst och förstått villkoren, samt att jag godkänner att Hedvig hanterar mina personuppgifter."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

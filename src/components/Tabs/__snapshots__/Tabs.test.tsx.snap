@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tab /> Test Cases Snapshot test should pass 1`] = `
+<div
+  className="Card-sc-fb64gk-0 Tabs__TabName-sc-u7kl0l-0 leCJCh drTbpm"
+>
+  <p
+    className="Text__StyledText-sc-1jfsuh1-0 iEvncp Tabs__TextTabName-sc-u7kl0l-1 cYKTLW"
+    color="gray900"
+  >
+    Apple
+  </p>
+</div>
+`;
+
+exports[`<Tabs /> Test Cases Snapshot test should pass 1`] = `
+Array [
+  <div
+    className="Card-sc-fb64gk-0 Tabs__TabNames-sc-u7kl0l-2 leCJCh lpnfZt"
+  >
+    <div
+      className="Card-sc-fb64gk-0 Tabs__TabName-sc-u7kl0l-0 hVQkXP drTbpm"
+      onClick={[Function]}
+    >
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iEvncp Tabs__TextTabName-sc-u7kl0l-1 hYgvbJ"
+        color="gray900"
+      >
+        Apple
+      </p>
+    </div>
+    <div
+      className="Card-sc-fb64gk-0 Tabs__TabName-sc-u7kl0l-0 leCJCh drTbpm"
+      onClick={[Function]}
+    >
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iEvncp Tabs__TextTabName-sc-u7kl0l-1 cYKTLW"
+        color="gray900"
+      >
+        Guava
+      </p>
+    </div>
+    <div
+      className="Card-sc-fb64gk-0 Tabs__TabName-sc-u7kl0l-0 leCJCh drTbpm"
+      onClick={[Function]}
+    >
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 iEvncp Tabs__TextTabName-sc-u7kl0l-1 cYKTLW"
+        color="gray900"
+      >
+        Pear
+      </p>
+    </div>
+  </div>,
+  <div
+    className="Card-sc-fb64gk-0 jYDLFY"
+  >
+     
+    Apple
+  </div>,
+]
+`;

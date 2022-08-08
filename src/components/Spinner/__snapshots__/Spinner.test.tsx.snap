@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Spinner /> Test Cases Snapshot test should pass 1`] = `
+<div
+  className="Card-sc-fb64gk-0 Spinner__StyledSpinner-sc-d85egg-0 leCJCh bAWNBa"
+  data-testid="Spinner"
+/>
+`;

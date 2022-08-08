@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DocumentLink /> Test Cases Snapshot test should pass 1`] = `
+<a
+  className="LinkText-sc-1dzt7t6-0 DocumentList__StyledDocumentLink-sc-us2d2x-0 hJrstt bSISLz"
+  color="gray900"
+  data-testid="DocumentLink"
+  fontSize="12px"
+  target="_blank"
+>
+  Link to Doc
+</a>
+`;
+
+exports[`<DocumentList /> Test Cases Snapshot test should pass 1`] = `
+<div
+  className="Card-sc-fb64gk-0 DocumentList__StyledDocumentList-sc-us2d2x-1 leCJCh MgptD"
+  data-testid="DocumentList"
+>
+  <a
+    className="LinkText-sc-1dzt7t6-0 DocumentList__StyledDocumentLink-sc-us2d2x-0 hJrstt bSISLz"
+    color="gray900"
+    data-testid="DocumentLink"
+    fontSize="12px"
+    href="http://www.africau.edu/images/default/sample.pdf"
+    target="_blank"
+  >
+    Link to Doc1
+  </a>
+  <a
+    className="LinkText-sc-1dzt7t6-0 DocumentList__StyledDocumentLink-sc-us2d2x-0 hJrstt bSISLz"
+    color="gray900"
+    data-testid="DocumentLink"
+    fontSize="12px"
+    href="http://www.africau.edu/images/default/sample.pdf"
+    target="_blank"
+  >
+    Link to Doc2
+  </a>
+  <a
+    className="LinkText-sc-1dzt7t6-0 DocumentList__StyledDocumentLink-sc-us2d2x-0 hJrstt bSISLz"
+    color="gray900"
+    data-testid="DocumentLink"
+    fontSize="12px"
+    href="http://www.africau.edu/images/default/sample.pdf"
+    target="_blank"
+  >
+    Link to Doc3
+  </a>
+</div>
+`;

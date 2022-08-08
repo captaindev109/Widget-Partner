@@ -1,0 +1,227 @@
+[
+  {
+    "id": "avy_ab_home_insurance_schema",
+    "partner_name": "avy ab",
+    "flow": "default",
+    "Partner_id": "avy_property",
+    "insurance_type": "home_insurance",
+    "lan": "se-en",
+    "app_id": "gjgas86sdgjjasjasd",
+    "session": true,
+    "session_id": "7dh8ghds73hkd89j3d",
+    "ui_data": [
+      {
+        "id": "are_you_insured",
+        "type": "display",
+        "component": "Card",
+        "padding": "16px",
+        "children": [
+          {
+            "id": "try_hedvig_title_card",
+            "component": "Card",
+            "marginBottom": "12px",
+            "children": [
+              {
+                "id": "try_hedvig_title",
+                "component": "Text",
+                "variant": "HeadlineS",
+                "children": "Är du redan försäkrad?"
+              }
+            ]
+          },
+          {
+            "id": "try_hedvig_description_card",
+            "component": "Card",
+            "marginBottom": "24px",
+            "children": [
+              {
+                "id": "try_hedvig_description",
+                "component": "Text",
+                "variant": "Body2",
+                "color": "gray700",
+                "children": "Är du redan försäkrad eller vill du teckna en ny försäkring för adressen som du bor på idag. Det tar bara någon minut att byta till Hedvig med Mobilt BankID. Vi hjälper till med bytet."
+              }
+            ]
+          },
+          {
+            "id": "try_hedvig_form_card",
+            "component": "Card",
+            "marginBottom": "24px",
+            "children": [
+              {
+                "id": "already_insured_form",
+                "component": "DynamicForm",
+                "children": [
+                  {
+                    "id": "alreadyInsured",
+                    "component": "RadioGroup",
+                    "direction": "column",
+                    "name": "alreadyInsured",
+                    "validationRules": {
+                      "required": {
+                        "value": true,
+                        "message": "Du måste ange om du vill teckan ny försäkring eller ej"
+                      }
+                    },
+                    "options": [
+                      {
+                        "id": "yes",
+                        "component": "Input",
+                        "type": "radio",
+                        "value": "yes",
+                        "children": "Jag har redan försäkring"
+                      },
+                      {
+                        "id": "no",
+                        "component": "Input",
+                        "type": "radio",
+                        "value": "no",
+                        "children": "Jag vill teckna en ny försäkring"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "information_about_you",
+        "type": "display",
+        "component": "Card",
+        "padding": "16px",
+        "children": [
+          {
+            "id": "title_card_0001",
+            "component": "Card",
+            "marginBottom": "24px",
+            "children": [
+              {
+                "id": "card_0001",
+                "component": "Text",
+                "variant": "HeadlineS",
+                "children": "Uppgifter om dig"
+              }
+            ]
+          },
+          {
+            "id": "description_card_0001",
+            "component": "Card",
+            "marginBottom": "24px",
+            "children": [
+              {
+                "id": "card_0001",
+                "component": "Text",
+                "variant": "Body2",
+                "children": "Vi behöver veta lite saker om dig för att kunna lämna ett personligt prisförslag."
+              }
+            ]
+          },
+          {
+            "id": "try_hedvig_form_card",
+            "component": "Card",
+            "marginBottom": "24px",
+            "children": [
+              {
+                "id": "about_you_form",
+                "component": "DynamicForm",
+                "children": [
+                  {
+                    "id": "street",
+                    "component": "Input",
+                    "validationRules": {
+                      "required": {
+                        "value": true,
+                        "message": "Du måste ange gatuadress"
+                      },
+                      "pattern": {
+                        "value": "^(.+),([^,]+),([^,]+)$",
+                        "message": "Fel format (Gata, Postnummer, Stad)"
+                      }
+                    },
+                    "label": "Välj gatuadress",
+                    "name": "address",
+                    "type": "text",
+                    "placeholder": "Vagnvägen 4, 175 56 Älvsjö, Stockholm"
+                  },
+                  {
+                    "id": "size",
+                    "component": "Input",
+                    "validationRules": {
+                      "required": {
+                        "value": true,
+                        "message": "Du måste ange storlek"
+                      },
+                      "min": {
+                        "value": 20,
+                        "message": "Minst 20 kvm"
+                      }
+                    },
+                    "label": "Välj storlek",
+                    "name": "livingSpace",
+                    "type": "number",
+                    "placeholder": "24 m2",
+                    "tooltip": "Den totala storleken på boendet."
+                  },
+                  {
+                    "id": "numberOfPeople",
+                    "component": "Dropdown",
+                    "label": "Välj antal personer att försäkra",
+                    "name": "householdSize",
+                    "placeholder": "1",
+                    "validationRules": {
+                      "required": {
+                        "value": true,
+                        "message": "Du måste ange storlek"
+                      }
+                    },
+                    "tooltip": "Välj antal personer att försäkra, om du vill försäkra fler än en person, välj fler personer.",
+                    "options": [
+                      { "label": "1", "value": 1 },
+                      { "label": "2", "value": 2 },
+                      { "label": "3", "value": 3 },
+                      { "label": "4", "value": 4 },
+                      { "label": "5", "value": 5 },
+                      { "label": "6", "value": 6 }
+                    ]
+                  },
+                  {
+                    "id": "student",
+                    "component": "RadioGroup",
+                    "label": "Är du student?",
+                    "direction": "row",
+                    "name": "student",
+                    "tooltip": "Är du under 30 år gammal?",
+                    "validationRules": {
+                      "required": {
+                        "value": true,
+                        "message": "Du måste ange om du är student eller inte"
+                      }
+                    },
+                    "options": [
+                      {
+                        "id": "yes",
+                        "component": "Input",
+                        "type": "radio",
+                        "value": "yes",
+                        "children": "Ja"
+                      },
+                      {
+                        "id": "no",
+                        "component": "Input",
+                        "type": "radio",
+                        "value": "no",
+                        "children": "Nej"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

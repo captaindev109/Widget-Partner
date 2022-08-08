@@ -1,0 +1,91 @@
+{
+  "name": "partner-widget",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "prepare": "husky install",
+    "check-types": "tsc --pretty --noEmit",
+    "check-format": "prettier --check .",
+    "check-lint": "eslint . --ext ts --ext tsx --ext js",
+    "format": "prettier --write .",
+    "test-all": "yarn check-format && yarn check-lint && yarn check-types && yarn build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "gen-component": "node generate_new.js"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.5",
+    "@hedviginsurance/brand": "^4.2.0",
+    "@storybook/react": "^6.4.9",
+    "@types/react-calendar": "^3.4.5",
+    "@types/react-test-renderer": "^17.0.1",
+    "@types/styled-components": "^5.1.17",
+    "@types/uuid": "^8.3.4",
+    "@xstate/react": "^1.6.3",
+    "D": "^1.0.0",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "graphql": "^16.0.1",
+    "jest-dom": "^4.0.0",
+    "next": "12.0.4",
+    "react": "^17.0.2",
+    "react-calendar": "^3.7.0",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.25.0",
+    "react-test-renderer": "^17.0.2",
+    "styled-components": "^5.3.3",
+    "styled-reset": "^4.3.4",
+    "uuid": "^8.3.2",
+    "xstate": "^4.26.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-react": "^7.16.0",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@testing-library/dom": "^8.11.1",
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^17.0.2",
+    "@types/react": "17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "babel-loader": "^8.2.3",
+    "eslint": "<8.0.0",
+    "eslint-config-airbnb": "^19.0.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-next": "^12.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-typescript": "^3.0.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-storybook": "^0.5.3",
+    "husky": "^7.0.0",
+    "jest": "^27.4.3",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.5.0",
+    "typescript": "^4.5.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*.tsx": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}

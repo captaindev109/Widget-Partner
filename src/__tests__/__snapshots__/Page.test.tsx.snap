@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases of the Page component Snapshot test should pass 1`] = `
+<div
+  className="Card-sc-fb64gk-0 Page__StyledPage-sc-zgeufr-0 leCJCh kZFgdt"
+>
+  <div
+    className="child"
+  >
+    child
+  </div>
+</div>
+`;

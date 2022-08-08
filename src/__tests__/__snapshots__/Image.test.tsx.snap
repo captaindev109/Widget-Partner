@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases of the Image component Snapshot test should pass 1`] = `
+<img
+  alt="test image"
+  className="Image__StyledImage-sc-34jhra-0 kDLjWP"
+  height="100%"
+  src="https://picsum.photos/800/400/"
+  width="100%"
+/>
+`;

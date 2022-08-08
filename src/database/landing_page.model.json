@@ -1,0 +1,165 @@
+[
+  {
+    "id": "landing_page_schema_0001",
+    "request_id": "7945798kjsfbbdfkjsdf",
+    "lan": "se-en",
+    "app_id": "gjgas86sdgjjasjasd",
+    "session": false,
+    "component": "Page",
+    "children": [
+      {
+        "id": "header_0001",
+        "component": "Header",
+        "children": [
+          {
+            "id": "header_0001",
+            "component": "HeaderContainer",
+            "children": [
+              {
+                "id": "header_with_image_0001",
+                "component": "HeaderWithImage",
+                "img_url_mobile": "https://res.cloudinary.com/partner-widget/image/upload/v1646409484/hero_start_mobile_ln45ri.jpg",
+                "img_url_desktop": "https://res.cloudinary.com/partner-widget/image/upload/v1646409446/hero_desktop_yuqmpd.jpg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "main_0001",
+        "component": "Main",
+        "children": [
+          {
+            "id": "main_top_0001",
+            "component": "MainTopContainer",
+            "children": [
+              {
+                "id": "try_hedvig_title_description_card",
+                "component": "Card",
+                "padding": "16px",
+                "children": [
+                  {
+                    "id": "try_hedvig_title_card",
+                    "component": "Card",
+                    "marginBottom": "12px",
+                    "children": [
+                      {
+                        "id": "try_hedvig_title",
+                        "component": "Text",
+                        "variant": "HeadlineS",
+                        "children": "Prova hedvig gratis 1 månad"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "try_hedvig_description_card",
+                    "component": "Card",
+                    "marginBottom": "24px",
+                    "children": [
+                      {
+                        "id": "try_hedvig_description",
+                        "component": "Text",
+                        "variant": "Body2",
+                        "color": "gray700",
+                        "children": "Med Hedvig får du hjälp från ditt alldeles egna serviceteam direkt i Hedvig-appen. 100% digital försäkring. Du är bara några steg bort från att försäkra dig med Hedvig."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "try_hedvig_list_card",
+                    "component": "Card",
+                    "marginBottom": "24px",
+                    "children": [
+                      {
+                        "id": "try_hedvig_list",
+                        "component": "List",
+                        "spaceBetween": "16px",
+                        "children": [
+                          {
+                            "id": "try_hedvig_list_item_1",
+                            "component": "ListItem",
+                            "children": [
+                              {
+                                "id": "try_hedvig_list_item_1_content",
+                                "component": "IconWithLabel",
+                                "label": "Digitalt, enkelt och krångelfritt",
+                                "iconName": "CheckMark",
+                                "config": {
+                                  "color": "#505050"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "try_hedvig_list_item_2",
+                            "component": "ListItem",
+                            "children": [
+                              {
+                                "id": "try_hedvig_list_item_2_content",
+                                "component": "IconWithLabel",
+                                "label": "Fullt försäkrad på 3 minuter",
+                                "iconName": "CheckMark",
+                                "config": {
+                                  "color": "#505050"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "try_hedvig_list_item_3",
+                            "component": "ListItem",
+                            "children": [
+                              {
+                                "id": "try_hedvig_list_item_3_content",
+                                "component": "IconWithLabel",
+                                "label": "Avsluta Hedvig när du vill",
+                                "iconName": "CheckMark",
+                                "config": {
+                                  "color": "#505050"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "try_hedvig_privacy_card",
+                    "component": "Card",
+                    "children": [
+                      {
+                        "id": "try_hedvig_privacy_text",
+                        "component": "PolicyText",
+                        "children": "Med Hedvig får du hjälp från ditt alldeles egna serviceteam direkt i Hedvig-appen. 100% digital försäkring. Du är bara några steg bort från att försäkra dig med Hedvig."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "main_top_0001",
+            "component": "MainBottomContainer",
+            "children": [
+              {
+                "id": "main_bottom_container_card_button",
+                "component": "NavigationButton",
+                "children": "Få ett prisförslag",
+                "variant": "primary",
+                "config": {
+                  "event_id": "83975hfks",
+                  "event_rendering_type": "static",
+                  "event_type": "routing",
+                  "event_direction": "next",
+                  "current_route": "/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

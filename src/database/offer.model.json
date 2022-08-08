@@ -1,0 +1,126 @@
+[
+  {
+    "id": "avy_ab_home_insurance_schema",
+    "partner_name": "avy ab",
+    "flow": "default",
+    "Partner_id": "avy_property",
+    "insurance_type": "home_insurance",
+    "lan": "se-en",
+    "app_id": "gjgas86sdgjjasjasd",
+    "session": true,
+    "session_id": "7dh8ghds73hkd89j3d",
+    "ui_data": [
+      {
+        "id": "offer",
+        "component": "Card",
+        "padding": "16px",
+        "children": [
+          {
+            "id": "offer_title_card",
+            "component": "Card",
+            "marginBottom": "30px",
+            "children": [
+              {
+                "id": "offer_title",
+                "component": "Text",
+                "variant": "HeadlineS",
+                "children": "Ditt prisförslag"
+              }
+            ]
+          },
+          {
+            "id": "price_offer_card",
+            "component": "Card",
+            "marginBottom": "48px",
+            "children": [
+              {
+                "id": "try_hedvig_description",
+                "component": "ExoticPriceOffer"
+              }
+            ]
+          },
+          {
+            "id": "price_offer_protection_card",
+            "component": "Card",
+            "marginBottom": "48px",
+            "children": [
+              {
+                "id": "price_offer_protection_title_card",
+                "component": "Card",
+                "marginBottom": "24px",
+                "children": [
+                  {
+                    "id": "price_offer_protection_title",
+                    "component": "Text",
+                    "variant": "HeadlineS",
+                    "children": "Skydd"
+                  }
+                ]
+              },
+              {
+                "id": "price_offer_protection_tab_card",
+                "component": "Card",
+                "marginBottom": "24px",
+                "children": [
+                  {
+                    "id": "price_offer_protection_title",
+                    "component": "ExoticTabs"
+                  }
+                ]
+              },
+              {
+                "id": "price_offer_protection_more_information_card",
+                "component": "Card",
+                "marginBottom": "24px",
+                "children": [
+                  {
+                    "id": "offer_more_information_title_card",
+                    "component": "Card",
+                    "marginBottom": "12px",
+                    "children": [
+                      {
+                        "id": "price_offer_protection_more_information_title",
+                        "component": "Text",
+                        "variant": "HeadlineXS",
+                        "marginBottom": "12px",
+                        "children": "Mer information"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "price_offer_protection_information_list",
+                    "component": "ExoticInformationList"
+                  }
+                ]
+              },
+              {
+                "id": "price_offer_protection_document_card",
+                "component": "Card",
+                "children": [
+                  {
+                    "id": "price_offer_protection_document_title_card",
+                    "component": "Card",
+                    "marginBottom": "12px",
+                    "children": [
+                      {
+                        "id": "price_offer_protection_document_title",
+                        "component": "Text",
+                        "variant": "HeadlineXS",
+                        "marginBottom": "12px",
+                        "children": "Dokument"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "price_offer_protection_information_list",
+                    "component": "ExoticOfferDocuments"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

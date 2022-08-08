@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown snapshot test Snapshot test should pass 1`] = `
+Array [
+  <div
+    className="Card-sc-fb64gk-0 leCJCh"
+  >
+    <div
+      className="Card-sc-fb64gk-0 Dropdown__TopRow-sc-nkn7qa-0 leCJCh ewecwQ"
+    >
+      <label
+        className="Label__StyledText-sc-76lssq-0 eBRjDt"
+        data-testid="dropdown-label"
+      >
+        I'm a label
+      </label>
+    </div>
+    <div
+      className="Card-sc-fb64gk-0 iwgbFx"
+    >
+      <select
+        className="Dropdown__StyledSelect-sc-nkn7qa-4 cnoIMZ"
+        onChange={[Function]}
+      >
+        <option
+          value="option-1"
+        >
+          Option 1
+        </option>
+        <option
+          value="option-2"
+        >
+          Option 2
+        </option>
+        <option
+          value="option-3"
+        >
+          Option 3
+        </option>
+      </select>
+      <div
+        className="Card-sc-fb64gk-0 Dropdown__IconWrapper-sc-nkn7qa-3 leCJCh TcSzt"
+      >
+        <svg
+          fill="none"
+          height="11px"
+          viewBox="0 0 19 11"
+          width="19px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clipRule="evenodd"
+            d="M9.50006 7.9394L2.03039 0.469727L0.969727 1.53039L9.50006 10.0607L18.0304 1.53039L16.9697 0.469727L9.50006 7.9394Z"
+            fill="#121212"
+            fillRule="evenodd"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>,
+  <span
+    data-testid="test-value"
+  >
+    
+  </span>,
+]
+`;

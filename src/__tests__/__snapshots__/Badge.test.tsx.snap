@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases of the Badge component should match the sapshot 1`] = `
+<div
+  className="Card-sc-fb64gk-0 Badge__StyledBadge-sc-12y41wr-0 leCJCh hwjXFa"
+  data-testid="badge"
+>
+  CHILD
+</div>
+`;

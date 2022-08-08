@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases of the PolicyText component Snapshot test should pass 1`] = `
+<p
+  className="Text__StyledText-sc-1jfsuh1-0 ffZyoX"
+  color="gray500"
+  data-testid="policy-text"
+>
+  text
+  <a
+    className="LinkText-sc-1dzt7t6-0 jA-DDB"
+    data-testid="policy-link-text"
+    fontSize="12px"
+    href="https://www.hedvig.com/se/personuppgifter"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+     linkText
+  </a>
+  .
+</p>
+`;

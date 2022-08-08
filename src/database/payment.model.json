@@ -1,0 +1,516 @@
+[
+  {
+    "id": "avy_ab_home_insurance_schema",
+    "partner_name": "avy ab",
+    "flow": "default",
+    "Partner_id": "avy_property",
+    "insurance_type": "home_insurance",
+    "lan": "se-en",
+    "app_id": "gjgas86sdgjjasjasd",
+    "session": true,
+    "session_id": "7dh8ghds73hkd89j3d",
+    "ui_data": [
+      {
+        "id": "connect",
+        "request_id": "7945798kjsfbbdfkjsdf",
+        "lan": "se-en",
+        "app_id": "gjgas86sdgjjasjasd",
+        "session": false,
+        "component": "Page",
+        "children": [
+          {
+            "id": "header_confirmation",
+            "component": "Header",
+            "children": [
+              {
+                "id": "header_confirmation",
+                "component": "HeaderContainer",
+                "children": [
+                  {
+                    "id": "header_with_navigation_connect",
+                    "component": "HeaderWithNavigation",
+                    "showBackButton": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "main_payment",
+            "component": "Main",
+            "children": [
+              {
+                "id": "main_top_payment",
+                "component": "MainTopContainer",
+                "children": [
+                  {
+                    "id": "payment_title_card",
+                    "component": "Card",
+                    "padding": "16px",
+                    "children": [
+                      {
+                        "id": "payment_icon_card",
+                        "component": "Card",
+                        "marginTop": "128px",
+                        "marginBottom": "28px",
+                        "width": "fit-content",
+                        "margin": "auto",
+                        "children": [
+                          {
+                            "id": "payment_icon",
+                            "component": "IconWithLabel",
+                            "config": {
+                              "width": "32px",
+                              "height": "32px",
+                              "color": "black"
+                            },
+                            "iconName": "BankIcon"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "payment_title_card",
+                        "component": "Card",
+                        "marginBottom": "8px",
+                        "textAlign": "center",
+                        "children": [
+                          {
+                            "id": "payment_title",
+                            "component": "Text",
+                            "variant": "HeadlineS",
+                            "children": "Välkommen till Hedvig! Koppla autogiro från din bank"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "confirmation_information_card_1",
+                        "component": "Card",
+                        "marginBottom": "32px",
+                        "textAlign": "center",
+                        "children": [
+                          {
+                            "id": "confirmation_information_text",
+                            "component": "ExoticConfirmationText"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "confirmation_title_card",
+                        "component": "Card",
+                        "marginBottom": "18px",
+                        "textAlign": "center",
+                        "children": [
+                          {
+                            "id": "confirmation_title",
+                            "component": "Text",
+                            "color": "gray700",
+                            "variant": "Body2",
+                            "children": "Nästa steg är att koppla autogiro från din bank."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "main_top_0001",
+                "component": "MainBottomContainer",
+                "children": [
+                  {
+                    "id": "connect_direct_debit_button_wrapper",
+                    "component": "Card",
+                    "marginBottom": "8px",
+                    "children": [
+                      {
+                        "id": "connect_direct_debit_button",
+                        "component": "NavigationButton",
+                        "config": {
+                          "event_type": "form",
+                          "event_destination": "next"
+                        },
+                        "children": [
+                          {
+                            "id": "connect_direct_debit_button_content",
+                            "component": "IconWithLabel",
+                            "label": "Koppla autogiro",
+                            "iconName": "TrustlyIcon",
+                            "variant": "Body3",
+                            "color": "gray100",
+                            "position": "right",
+                            "config": {
+                              "width": "22px",
+                              "height": "16.51px",
+                              "color": "#FAFAFA"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "id": "confirmation_questions_p1_card",
+                    "component": "Card",
+                    "marginBottom": "18px",
+                    "textAlign": "center",
+                    "children": [
+                      {
+                        "id": "confirmation_p1",
+                        "component": "Text",
+                        "variant": "Body3",
+                        "color": "gray700",
+                        "children": "Betalningar sköts tryggt genom Trustly."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "trustly_iframe",
+        "request_id": "7945798kjsfbbdfkjsdf",
+        "lan": "se-en",
+        "app_id": "gjgas86sdgjjasjasd",
+        "session": false,
+        "component": "Page",
+        "children": [
+          {
+            "id": "header_confirmation",
+            "component": "Header",
+            "children": [
+              {
+                "id": "header_confirmation",
+                "component": "HeaderContainer",
+                "children": [
+                  {
+                    "id": "header_with_navigation_connect",
+                    "component": "HeaderWithNavigation",
+                    "showBackButton": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "main_confirmation",
+            "component": "Main",
+            "children": [
+              {
+                "id": "main_top_confirmation",
+                "component": "MainTopContainer",
+                "children": [
+                  {
+                    "id": "trustly_iframe",
+                    "component": "ExoticTrustlyIframe"
+                  }
+                ]
+              },
+              {
+                "id": "main_bottom_trustlyPage",
+                "component": "MainBottomContainer",
+                "padding": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "confirmation",
+        "request_id": "7945798kjsfbbdfkjsdf",
+        "lan": "se-en",
+        "app_id": "gjgas86sdgjjasjasd",
+        "session": false,
+        "component": "Page",
+        "children": [
+          {
+            "id": "header_confirmation",
+            "component": "Header",
+            "children": [
+              {
+                "id": "header_confirmation",
+                "component": "HeaderContainer",
+                "children": [
+                  {
+                    "id": "header_with_navigation_connect",
+                    "component": "HeaderWithNavigation",
+                    "showBackButton": false,
+                    "showProgressBar": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "main_confirmation",
+            "component": "Main",
+            "children": [
+              {
+                "id": "main_top_confirmation",
+                "component": "MainTopContainer",
+                "children": [
+                  {
+                    "id": "confirmation_title_card_1",
+                    "component": "Card",
+                    "padding": "16px",
+                    "children": [
+                      {
+                        "id": "confirmation_icon_card",
+                        "component": "Card",
+                        "marginTop": "139px",
+                        "marginBottom": "25px",
+                        "width": "fit-content",
+                        "margin": "auto",
+                        "children": [
+                          {
+                            "id": "confirmation_icon",
+                            "component": "IconWithLabel",
+                            "config": {
+                              "width": "32px",
+                              "height": "32px",
+                              "color": "#777777"
+                            },
+                            "iconName": "RadioSelected"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "confirmation_title_card",
+                        "component": "Card",
+                        "marginBottom": "80px",
+                        "textAlign": "center",
+                        "children": [
+                          {
+                            "id": "confirmation_title",
+                            "component": "Text",
+                            "variant": "HeadlineS",
+                            "color": "gray900",
+                            "children": "Autogiro är kopplat. Välkommen till Hedvig!"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "confirmation_questions_card",
+                        "component": "Card",
+                        "background": "#F2F2F2",
+                        "padding": "16px",
+                        "children": [
+                          {
+                            "id": "confirmation_questions_title_card",
+                            "component": "Card",
+                            "children": [
+                              {
+                                "id": "confirmation_title",
+                                "component": "Text",
+                                "variant": "Body3",
+                                "children": "Har du några frågor?"
+                              }
+                            ]
+                          },
+                          {
+                            "id": "confirmation_questions_p1_card",
+                            "component": "Card",
+                            "marginBottom": "20px",
+                            "children": [
+                              {
+                                "id": "confirmation_p1",
+                                "component": "Text",
+                                "variant": "Body3",
+                                "color": "gray700",
+                                "children": "Kom igång genom att ladda ner Hedvig-appen."
+                              }
+                            ]
+                          },
+                          {
+                            "id": "confirmation_questions_p2_card",
+                            "component": "Card",
+                            "children": [
+                              {
+                                "id": "confirmation_p2",
+                                "component": "Text",
+                                "variant": "Body3",
+                                "color": "gray700",
+                                "children": "Anmäl skador, få hjälp via chatten eller säg upp din försäkring. Allt som har med din försäkring att göra sköter du enkelt i Hedvig-appen."
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "main_top_0001",
+                "component": "MainBottomContainer",
+                "children": [
+                  {
+                    "id": "confirmation_back_button_card",
+                    "component": "Card",
+                    "children": [
+                      {
+                        "id": "confirmation_back_button",
+                        "component": "Button",
+                        "children": "Tillbaka till appen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "retry",
+        "request_id": "7945798kjsfbbdfkjsdf",
+        "lan": "se-en",
+        "app_id": "gjgas86sdgjjasjasd",
+        "session": false,
+        "component": "Page",
+        "children": [
+          {
+            "id": "header_confirmation",
+            "component": "Header",
+            "children": [
+              {
+                "id": "header_confirmation",
+                "component": "HeaderContainer",
+                "children": [
+                  {
+                    "id": "header_with_navigation_connect",
+                    "component": "HeaderWithNavigation",
+                    "showBackButton": false,
+                    "showProgressBar": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "main_confirmation",
+            "component": "Main",
+            "children": [
+              {
+                "id": "main_top_confirmation",
+                "component": "MainTopContainer",
+                "children": [
+                  {
+                    "id": "retry_title_card_1",
+                    "component": "Card",
+                    "padding": "16px",
+                    "children": [
+                      {
+                        "id": "retry_icon_card",
+                        "component": "Card",
+                        "marginTop": "139px",
+                        "marginBottom": "27px",
+                        "width": "fit-content",
+                        "margin": "auto",
+                        "children": [
+                          {
+                            "id": "retry_icon",
+                            "component": "IconWithLabel",
+                            "config": {
+                              "width": "30px",
+                              "height": "27px",
+                              "color": "#121212"
+                            },
+                            "iconName": "WarningIcon"
+                          } 
+                        ]
+                      },
+                      {
+                        "id": "retry_title_card",
+                        "component": "Card",
+                        "marginBottom": "12px",
+                        "textAlign": "center",
+                        "children": [
+                          {
+                            "id": "retry_title",
+                            "component": "Text",
+                            "variant": "HeadlineS",
+                            "color": "gray900",
+                            "children": "Autogiro är kopplat. Välkommen till Hedvig!"
+                          }
+                        ]
+                      },
+                      {
+                        "id": "retry_content_text_card",
+                        "component": "Card",
+                        "textAlign": "center",
+                        "children": [
+                          {
+                            "id": "retry_content_text",
+                            "component": "Text",
+                            "variant": "Body3",
+                            "color": "gray700",
+                            "children": "Försök igen. Om problemet kvarstår, ladda ner Hedvig-appen och skriv till oss i chatten."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "main_top_0001",
+                "component": "MainBottomContainer",
+                "children": [
+                  {
+                    "id": "confirmation_back_button_card",
+                    "component": "Card",
+                    "children": [
+                      {
+                        "id": "confirmation_back_button",
+                        "component": "NavigationButton",
+                        "children": "Försök igen",
+                        "config": {
+                          "event_type": "form",
+                          "event_destination": "next"
+                        }
+                      },
+                      {
+                        "id": "confirmation_back_button",
+                        "component": "Button",
+                        "children": "Tillbaka till Avy-appen",
+                        "variant": "transparent"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "spinner",
+        "request_id": "7945798kjsfbbdfkjsdf",
+        "lan": "se-en",
+        "app_id": "gjgas86sdgjjasjasd",
+        "session": false,
+        "component": "Page",
+        "children": [
+          {
+            "id": "spinner_page",
+            "component": "Card",
+            "width": "100%",
+            "height": "100vh",
+            "display": "flex",
+            "alignItems": "center",
+            "justifyContent": "center",
+            "children": [
+              {
+                "id": "spinner_1",
+                "component": "Spinner"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

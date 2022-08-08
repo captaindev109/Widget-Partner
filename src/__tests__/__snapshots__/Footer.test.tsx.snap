@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer props test Snapshot test should pass 1`] = `
+<div
+  className="Card-sc-fb64gk-0 cOsjRF"
+  data-testid="footer"
+  width="100%"
+>
+  footer
+</div>
+`;

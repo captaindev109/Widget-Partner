@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Span /> Test Cases Snapshot test should pass 1`] = `
+<span
+  className="Span__StyledSpan-sc-1tn16tz-0 ldMWNC"
+/>
+`;

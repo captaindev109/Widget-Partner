@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ConfirmationText /> Test Cases Snapshot test should pass 1`] = `
+<div
+  className="Card-sc-fb64gk-0 leCJCh"
+>
+  <p
+    className="Text__StyledText-sc-1jfsuh1-0 bvtSFa"
+    color="gray700"
+  >
+    Du är nu skyddad. Försäkringen aktiveras 18/11/2022. Ett bekräftelsemail har skickats till test@hedvig.com.
+  </p>
+</div>
+`;

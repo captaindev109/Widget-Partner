@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InsuranceSummary /> Test Cases Snapshot test should pass 1`] = `
+<div
+  className="Card-sc-fb64gk-0 CWoXT"
+>
+  <ul
+    className="List__StyledList-sc-1b1or9q-0 lfyYCb"
+    direction="column"
+    display="flex"
+  >
+    <div
+      className="Card-sc-fb64gk-0 gZFGrF"
+      display="flex"
+    >
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 kuEDKQ"
+        color="gray900"
+      >
+        Försäkringstagare
+      </p>
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 lmAVHO"
+        color="gray700"
+      >
+        Magnus
+         
+        Berg
+      </p>
+    </div>
+    <div
+      className="Card-sc-fb64gk-0 gZFGrF"
+      display="flex"
+    >
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 kuEDKQ"
+        color="gray900"
+      >
+        Antal försäkrade
+      </p>
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 lmAVHO"
+        color="gray700"
+      >
+        1 person
+      </p>
+    </div>
+    <div
+      className="Card-sc-fb64gk-0 gZFGrF"
+      display="flex"
+    >
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 kuEDKQ"
+        color="gray900"
+      >
+        Födelsedag
+      </p>
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 lmAVHO"
+        color="gray700"
+      >
+        12/24/1991
+      </p>
+    </div>
+    <div
+      className="Card-sc-fb64gk-0 InsuranceSummary__Divider-sc-18vjd4x-1 leCJCh hwYbks"
+    />
+    <div
+      className="Card-sc-fb64gk-0 gZFGrF"
+      display="flex"
+    >
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 kuEDKQ"
+        color="gray900"
+      >
+        Gatuadress
+      </p>
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 lmAVHO"
+        color="gray700"
+      />
+    </div>
+    <div
+      className="Card-sc-fb64gk-0 gZFGrF"
+      display="flex"
+    >
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 kuEDKQ"
+        color="gray900"
+      >
+        Typ av bostad
+      </p>
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 lmAVHO"
+        color="gray700"
+      />
+    </div>
+    <div
+      className="Card-sc-fb64gk-0 InsuranceSummary__Divider-sc-18vjd4x-1 leCJCh hwYbks"
+    />
+    <div
+      className="Card-sc-fb64gk-0 gZFGrF"
+      display="flex"
+    >
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 kuEDKQ"
+        color="gray900"
+      >
+        Telefon
+      </p>
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 lmAVHO"
+        color="gray700"
+      />
+    </div>
+    <div
+      className="Card-sc-fb64gk-0 gZFGrF"
+      display="flex"
+    >
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 kuEDKQ"
+        color="gray900"
+      >
+        Epost
+      </p>
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 lmAVHO"
+        color="gray700"
+      >
+        magnus.berg.66@gmail.com
+      </p>
+    </div>
+    <div
+      className="Card-sc-fb64gk-0 InsuranceSummary__Divider-sc-18vjd4x-1 leCJCh hwYbks"
+    />
+  </ul>
+  <button
+    className="Button__StyledButton-sc-1drbzk-0 kPuKUj"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <div
+      className="Card-sc-fb64gk-0 Button__ContentWrapper-sc-1drbzk-1 leCJCh jowrmu"
+    >
+      <p
+        className="Text__StyledText-sc-1jfsuh1-0 fxAzWg"
+        color="purple900"
+      >
+        Ändra uppgifter
+      </p>
+    </div>
+  </button>
+</div>
+`;

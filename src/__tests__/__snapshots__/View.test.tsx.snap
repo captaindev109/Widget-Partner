@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HelloWorld /> Test Cases Snapshot test should pass 1`] = `
+<div
+  className="Card-sc-fb64gk-0 leCJCh"
+>
+  <div
+    className="Card-sc-fb64gk-0 iqWWFd"
+    id="1"
+  >
+    <img
+      className="Image__StyledImage-sc-34jhra-0 HuVGL"
+      height="400px"
+      src="https://picsum.photos/800/400"
+      width="800px"
+    />
+  </div>
+</div>
+`;

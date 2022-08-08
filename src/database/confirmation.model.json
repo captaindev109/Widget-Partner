@@ -1,0 +1,150 @@
+[
+  {
+    "id": "confirmation_schema",
+    "request_id": "7945798kjsfbbdfkjsdf",
+    "lan": "se-en",
+    "app_id": "gjgas86sdgjjasjasd",
+    "session": false,
+    "component": "Page",
+    "children": [
+      {
+        "id": "header_confirmation",
+        "component": "Header",
+        "children": [
+          {
+            "id": "header_confirmation",
+            "component": "HeaderContainer"
+          }
+        ]
+      },
+      {
+        "id": "main_confirmation",
+        "component": "Main",
+        "children": [
+          {
+            "id": "main_top_confirmation",
+            "component": "MainTopContainer",
+            "children": [
+              {
+                "id": "confirmation_title_card",
+                "component": "Card",
+                "padding": "16px",
+                "children": [
+                  {
+                    "id": "confirmation_icon_card",
+                    "component": "Card",
+                    "marginTop": "24px",
+                    "marginBottom": "18px",
+                    "children": [
+                      {
+                        "id": "confirmation_icon",
+                        "component": "IconWithLabel",
+                        "config": {
+                          "width": "22px",
+                          "height": "22px",
+                          "color": "#505050"
+                        },
+                        "iconName": "CircleCheckIcon"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "confirmation_title_card",
+                    "component": "Card",
+                    "marginBottom": "18px",
+                    "children": [
+                      {
+                        "id": "confirmation_title",
+                        "component": "Text",
+                        "variant": "HeadlineS",
+                        "children": "Tack för att du blivit medlem hos Hedvig."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "confirmation_information_card",
+                    "component": "Card",
+                    "marginBottom": "30px",
+                    "children": [
+                      {
+                        "id": "confirmation_information_text",
+                        "component": "ExoticConfirmationText"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "confirmation_back_button_card",
+                    "component": "Card",
+                    "children": [
+                      {
+                        "id": "confirmation_back_button",
+                        "component": "Button",
+                        "fluid": "true",
+                        "children": "Tillbaka till appen"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "main_top_0001",
+            "component": "MainBottomContainer",
+            "padding": "false",
+            "shadow": "false",
+            "children": [
+              {
+                "id": "confirmation_questions_card",
+                "component": "Card",
+                "background": "#F2F2F2",
+                "padding": "16px",
+                "children": [
+                  {
+                    "id": "confirmation_questions_title_card",
+                    "component": "Card",
+                    "children": [
+                      {
+                        "id": "confirmation_title",
+                        "component": "Text",
+                        "variant": "Body3",
+                        "children": "Har du några frågor?"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "confirmation_questions_p1_card",
+                    "component": "Card",
+                    "marginBottom": "20px",
+                    "children": [
+                      {
+                        "id": "confirmation_p1",
+                        "component": "Text",
+                        "variant": "Body3",
+                        "color": "gray700",
+                        "children": "Kom igång genom att ladda ner Hedvig-appen."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "confirmation_questions_p2_card",
+                    "component": "Card",
+                    "children": [
+                      {
+                        "id": "confirmation_p2",
+                        "component": "Text",
+                        "variant": "Body3",
+                        "color": "gray700",
+                        "children": "Anmäl skador, få hjälp via chatten eller säg upp din försäkring. Allt som har med din försäkring att göra sköter du enkelt i Hedvig-appen."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

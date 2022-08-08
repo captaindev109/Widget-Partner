@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IconWithLabel /> Test Cases Snapshot test should pass 1`] = `
+<div
+  className="Card-sc-fb64gk-0 hskMYt"
+  data-testid="IconWithLabel"
+  display="flex"
+>
+  <div
+    className="Card-sc-fb64gk-0 hskMYt"
+    display="flex"
+  >
+    <svg
+      fill="#505050"
+      height="15px"
+      viewBox="0 0 20 15"
+      width="20px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        clipRule="evenodd"
+        d="M19.5486 1.51146L7.81889 14.0915L0.45874 6.41706L1.54134 5.3788L7.80354 11.9084L18.4515 0.488525L19.5486 1.51146Z"
+        fill="#505050"
+        fillRule="evenodd"
+      />
+    </svg>
+  </div>
+</div>
+`;
